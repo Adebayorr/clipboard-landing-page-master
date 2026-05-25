@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px;
+    color: hsl(201, 11%, 66%);
+    background-color: #FEFEFE;
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.hero {
+    background-image: url('/images/bg-header-mobile.png');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.logo {
+    margin: 100px auto 40px auto;
+
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto 24px auto;
+    color: hsl(212, 10%, 33%);
+}
+
+.text-bg {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 90%;
+    max-width: 700px;
+    
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn {  
+    width: 90%;
+    max-width: 350px;
+    border-radius: 66px;
+    border: none;
+    outline: none;
+    box-shadow: 0 4px 4px #0e0e0e58;
+    height: 64px;
+}
+
+.btn > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.2rem;
+    color: #FEFEFE;
+    border-radius: 60px;
+    padding: 16px;
+    height: 60px;
+    margin-top: -3px;
+
+}
+.primary-btn {
+    background-color: #1f7366;
+    box-shadow: 0 4px 12px 12px #26baa418;
+}
+
+.primary-btn > p {
+    background-color: hsl(171, 66%, 44%)
+}
+
+
+.secondary-btn {
+    background-color: hsl(233, 69%, 55%);
+    box-shadow: 0 4px 8px 12px #4859d718;
+    
+}
+
+.secondary-btn > p {
+    background-color: hsl(233, 100%, 69%)
+}

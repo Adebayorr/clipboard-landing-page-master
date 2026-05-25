@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/media.css">
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body>
-  <section class="hero">
-    <img src="images/logo.svg" alt="Clipboard Logo">
+  <header class="hero">
+    <img src="images/logo.svg" alt="Clipboard Logo" class="logo">
     <h1 class="hero-title">A history of everything you copy</h1>
     <p class="hero-subtitle text-bg">
       Clipboard allows you to track and organize everything you 
       copy. Instantly access your clipboard on all your devices.
     </p>
     <div class="btns">
-      <button class="primary-btn btn"> Download for iOS</button>
-      <button class="secondary-btn -btn">Download for Mac</button>
+      <button class="primary-btn btn"><p>Download for iOS</p></button>
+      <button class="secondary-btn btn"><p>Download for Mac</p></button>
     </div>
-  </section>
+  </header>
   <section class="features">
     <h2 class="features-title title-md"> Keep track of your snippets</h2>
     <p class="features-subtitle text">
@@ -91,8 +94,8 @@
       and you’re ready to start adding to your clipboard.
     </p>
     <div class="btns">
-      <button class="primary-btn btn"> Download for iOS</button>
-      <button class="secondary-btn -btn">Download for Mac</button>
+      <a href="/" class="primary-btn btn"> Download for iOS</a>
+      <a href="/" class="secondary-btn -btn">Download for Mac</a>
     </div>
   </section>
   <footer>

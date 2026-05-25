@@ -1,0 +1,15 @@
+@media screen and (min-width: 800px) {
+
+
+    .hero {
+        background-image: url(/images/bg-header-desktop.png);
+    }
+
+    .text-bg {
+        font-size: 1.3rem;
+    }
+
+    .btns {
+        flex-direction: row;
+    }
+}
