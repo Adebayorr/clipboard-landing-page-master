@@ -5,6 +5,10 @@
         background-image: url(/images/bg-header-desktop.png);
     }
 
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
     .text-bg {
         font-size: 1.3rem;
     }
@@ -12,4 +16,61 @@
     .btns {
         flex-direction: row;
     }
+
+
+    .title-md {
+        font-size: 2.1rem;
+    }
+
+    .text {
+        font-size: 1.1rem;
+    }
+
+    .text-bg {
+        font-size: 1.3rem;
+    }
+
+    .text-sm {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .features-list {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 32px;
+        
+    }
+
+    .feature-image-wrapper {
+        width: 55%;
+        margin: 40px 0;
+        margin-left: -10%;
+    } 
+    
+    .features-items {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 28px;
+    }
+
+    .feature-item {
+        margin: 0 auto;
+        width: 80%;
+        list-style: none;
+    }
+
+    .feature-subtitle, .feature-title {
+        text-align: start;
+        margin-top: 12px;
+        max-width: 350px;
+    }
+
 }
