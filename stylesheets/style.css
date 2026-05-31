@@ -81,6 +81,10 @@ body {
     margin-top: -3px;
 
 }
+
+.btn:focus-visible {
+    outline: 2px solid black;
+}
 .primary-btn {
     background-color: #1f7366;
     box-shadow: 0 4px 12px 12px #26baa418;
@@ -88,6 +92,10 @@ body {
 
 .primary-btn > p {
     background-color: hsl(171, 66%, 44%)
+}
+
+.btn:hover {
+    opacity: 0.85;
 }
 
 
